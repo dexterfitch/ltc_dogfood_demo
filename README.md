@@ -85,9 +85,9 @@ Core JavaScript skills such as variables, operators, strings, conditionals, func
 
 ---
 
-## **JavaScript Fundamentals: Example Concepts**
+## **JavaScript: Foundational Concepts**
 
-Before we dive into building the protein calculation portion of our Dog Food Calculator, let's take a look at some basic JavaScript concepts that we'll need.
+Before we dive into building the protein calculation portion of our Dog Food Calculator, let's take a look at some core JavaScript concepts that we'll need.
 
 ### **1. Variables**
 
