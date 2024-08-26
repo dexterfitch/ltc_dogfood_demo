@@ -250,7 +250,7 @@ For cleaner, more readable code, especially when combining strings and variables
 ### **Curveball**
 Strings can be tricky when it comes to handling special characters or long blocks of text. To include a quote within a string, we need to escape it using a backslash (`\`). For example, `"He said, \"Hello!\""` will correctly display the quotes around "Hello!" inside the string. Another curveball is the difference between single (`'`) and double (`"`) quotes—both work to define strings, but we must be consistent in their use. Also, if we need to handle multi-line text, template literals (using backticks `` ` ``) come in handy as they allow for easier formatting and inclusion of variables.
 
-#### **Key Terms**
+### **Key Terms**
 
 **Concatenation** - The process of joining two or more strings together. While the `+` operator is commonly used, be mindful of its behavior when used with non-string types, as it can lead to unintended type coercion (e.g., `"5" + 5` results in `"55"`).
 
@@ -312,7 +312,7 @@ If we have more than one condition to check, use `else if`.
 ### **Curveball**
 One curveball with conditionals is understanding **truthy** and **falsy** values in JavaScript. These are non-boolean values that JavaScript treats as `true` or `false` when used in a boolean context (like inside an `if` statement). For instance, the number `0`, an empty string (`""`), `null`, `undefined`, and `NaN` are all falsy, while most other values are truthy. This can lead to unexpected behavior if we’re not careful when writing our conditions.
 
-#### **Key Terms**
+### **Key Terms**
 
 **Truthy and Falsy Values** - In JavaScript, every value is either truthy or falsy in a boolean context. Common falsy values include `0`, `""` (empty string), `null`, `undefined`, `NaN`, and `false`. Everything else is truthy.
 
@@ -361,7 +361,7 @@ A `while` loop keeps running as long as a certain condition is true.
 ### **Curveball**
 A common challenge with loops is avoiding **infinite loops**—loops that never end because the condition for stopping them is never met. This can happen if we forget to update the loop variable or set the stopping condition incorrectly. Infinite loops can crash our program, so it's important to ensure that our loop conditions will eventually be false.
 
-#### **Key Terms**
+### **Key Terms**
 
 **Infinite Loop** - A loop that never terminates because the terminating condition is never met. This can cause the program to crash or become unresponsive, so always ensure loop conditions will eventually be false.
 
