@@ -99,7 +99,7 @@ Let's say we want to remember how much money we have in a wallet. We could put t
 let walletMoney = 50;
 ```
 
-Here, `let walletMoney = 50;` means we've created a box labelled `walletMoney` and put the number `50` inside it - in code-speak, we've *declared* the variable `walletMoney` and set its *value* t0 `50`. Anytime we need to check how much money we have, we just open the box - or, *call* the variable and can see that we've got $50!
+Here, `let walletMoney = 50;` means we've created a box labelled `walletMoney` and put the number `50` inside it - in code-speak, we've *declared* the variable `walletMoney` and set its *value* to `50`. Anytime we need to check how much money we have, we just open the box - or, *call* the variable and can see that we've got $50!
 
 We can also change what's in the box whenever we want. If we spend $10 and now have $40 left, we just update the box:
 
