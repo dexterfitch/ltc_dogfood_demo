@@ -66,7 +66,6 @@ So, whether you're coming to this project fresh-faced and new to coding, or you 
 ---
 ---
 <br />
-<br />
 
 # **Piece by Piece**
 
