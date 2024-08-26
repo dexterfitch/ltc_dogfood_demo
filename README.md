@@ -110,7 +110,7 @@ walletMoney = 40;
 Now, the box `walletMoney` holds the number `40` instead. That's basically how a variable works in JavaScript! It's a box where we can store information, and we can *call* it later whenever we need it. Notice the difference between when we *declared* the variable - using the *keyword* `let` and *setting* `walletMoney` to `50` versus when we *reassigned* the variable `walletMoney` to `40`? Let's examine the parts of a variable *declaration* more closely, now, to really understand what's happening here.
 
 ### Anatomy of a Variable:
-![Anatomy of a variable in JavaScript, illustrating the keyword, name, operator, value, and terminator](https://www.pythonanywhere.com/user/dexfitch/files/home/dexfitch/dfdc/media/Variable-Labels.png "Anatomy of a JavaScript Variable")
+![Anatomy of a variable in JavaScript, illustrating the keyword, name, operator, value, and terminator]("https://www.pythonanywhere.com/user/dexfitch/files/home/dexfitch/dfdc/media/Variable-Labels.png "Anatomy of a JavaScript Variable")
 
 Notice we have the *keyword* `let` at the beginning when we *declare* a variable. This is like us actively writing the label, or *variable name* on our "box". When we *call* the variable later, and *set* the value for instance from `50` to `40`, we do not use the keyword again - the box has already been labelled!
 
